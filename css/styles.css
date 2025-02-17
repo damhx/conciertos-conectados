@@ -1,0 +1,80 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    margin-top: 43px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    height: 766px;
+    width: 349px;
+}
+
+.section_header{
+    height: 231px;
+    width: 387px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div_button_noti{
+    width: 352px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_menu{
+    width: 22px;
+    height: 22px;
+}
+
+.img_noti{
+    width: 22px;
+    height: 28px;
+}
+
+.section_header h1{
+    width: 256px;
+    height: 72px;
+}
+
+.nav_search{
+    width: 346px;
+    height: 85px;
+}
+
+.div_search{
+    width: 346px;
+    height: 41px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.div_searchlupa{
+    width: 157px;
+    height: 17px;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.div_search p{
+    width: 130px;
+    height: 15px;
+}
