@@ -1,0 +1,8 @@
+:root {
+    --color-1: #FFFFFF;
+}
+
+@font-face {
+    font-family: "Inter_28pt-Regular";
+    src: url(../storage/font/Inter_28pt-Regular.ttf);
+ }
