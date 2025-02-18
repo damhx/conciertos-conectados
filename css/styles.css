@@ -26,7 +26,7 @@ body{
     position: relative;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;
+
 }
 
 .div_button_noti{
@@ -49,8 +49,16 @@ body{
 .header_inicio h1{
     width: 256px;
     height: 72px;
-    gap: -10px;
+    margin-bottom: 5px;
+}
+
+.header_inicio h2{
+    width: 256px;
+    height: 72px;
     color: #761CBC;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: none;
 }
 
 .nav_search{
