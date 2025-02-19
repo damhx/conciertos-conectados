@@ -79,6 +79,12 @@
     height: 241px;
 }
 
+.div_concertinfo3 p{
+    width: 292px;
+    height: 241px;
+    text-decoration: none;
+}
+
 .div_name{
     width: 292px;
     height: 65px;
