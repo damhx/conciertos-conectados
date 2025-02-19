@@ -131,3 +131,159 @@
         font-weight: bold;
     }
 }
+
+.section_bigtext{
+    width: 346px;
+    height: 133px;
+    top: 93px;
+    left: 44px;
+    right: 20px;
+    gap: 8px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+    h1{
+        width: 77px;
+        height: 17px;
+        font-size: 14px;
+        font-family: "Inter_18pt-Medium";
+    }
+}
+
+@media (max-width: 400px) {
+    .section_bigtext{
+        left: 28px;
+    }
+}
+
+.p_bigtext{
+    width: 350px;
+    height: 108px;
+    font-size: 12px;
+    color: var(--color-gray);
+    font-family: "DMSans-Regular";
+    text-align: justify;
+}
+
+@media (max-width: 400px) {
+    .p_bigtext{
+        width: 320px;
+    }
+}
+
+#read_more{
+    display: none;
+}
+
+label{
+    color: var(--color-blue);
+    cursor: pointer;
+}
+
+.modal-overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.section_gps{
+    width: 346px;
+    height: 241px;
+    top: 100px;
+    bottom: 28px;
+    left: 22px;
+    right: 22px;
+    gap: 12px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+
+    h1{
+        width: 150px;
+        height: 17px;
+        font-size: 14px;
+        font-family: "Inter_18pt-Medium";
+    }
+
+    img{
+        width: 346px;
+        height: 212px;
+        display: flex;
+        justify-content: center;
+        left: 22px;
+        right: 22px;
+    }
+}
+
+.footer_buy{
+    width: 390px;
+    height: 66px;
+    background-color: #FFFFFF;
+    position: fixed;
+    box-shadow: 0px 0px 9px 14px rgba(0, 0, 0, 0.1);
+    top: 91%;
+}
+
+.div_concertval{
+    width: 102px;
+    height: 35px;
+    padding-top: 16px;
+    padding-left: 22px;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        width: 102px;
+        height: 19px;
+        font-size: 16px;
+        font-family: "Inter_18pt-Regular";
+    }
+
+    p{
+        width: 48px;
+        height: 12px;
+        font-size: 10px;
+        font-family: "Inter_18pt-SemiBold";
+    }
+}
+
+.div_concertbuy{
+    width: 110px;
+    height: 34px;
+    position: absolute;
+    top: 16px;
+    left: 300px;
+
+    button {
+        width: 110px;
+        height: 34px;    
+        border-radius: 20px;   
+        border: none;
+        color: #FFFFFF;
+        background-color: var(--color-purple);
+        font-family: "Inter_18pt-Medium";
+        margin-left: -40px;
+
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .footer_buy {
+        width: 390px;
+        height: 66px;
+        background-color: white;
+        position: fixed;
+        box-shadow: 0px 0px 9px 14px rgba(0,0,0,0.1);
+    }
+}

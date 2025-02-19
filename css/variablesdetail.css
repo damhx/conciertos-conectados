@@ -1,3 +1,9 @@
+:root {
+    --color-blue: #0092FC;
+    --color-white: #FFFFFF;
+    --color-purple: #761CBC;
+}
+
 @font-face {
     font-family: "Inter_28pt-SemiBold";
     src: url(../storage/font/Inter_28pt-SemiBold.ttf);
@@ -6,4 +12,14 @@
 @font-face {
     font-family: "Inter_18pt-Regular";
     src: url(../storage/font/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter_18pt-Medium";
+    src: url(../storage/font/Inter_18pt-Medium.ttf);
+}
+
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url(../storage/font/DMSans-Regular.ttf);
 }
