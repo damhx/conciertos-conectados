@@ -26,7 +26,6 @@ body{
     position: relative;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .div_button_noti{
@@ -34,6 +33,7 @@ body{
     height: 34px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .img_menu{
@@ -46,24 +46,14 @@ body{
     height: 34px;
 }
 
-.header_inicio h1{
-    width: 256px;
-    height: 72px;
-    margin-bottom: 5px;
-}
-
-.header_inicio h2{
-    width: 256px;
-    height: 72px;
-    color: #761CBC;
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-top: none;
+.purple{
+    color: rgb(144, 2, 163);
 }
 
 .nav_search{
     width: 346px;
     height: 85px;
+    margin-top: 20px;
 }
 
 .div_search{
