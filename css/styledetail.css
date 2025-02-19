@@ -1,0 +1,133 @@
+@import url(../css/variablesdetail.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img_arrowback{
+    width: 34px;
+    height: 34px;
+    top: 35px;
+    left: 22px;
+    position: absolute;
+}
+
+.img_blackpoints{
+    width: 16px;
+    height: 4px;
+    position: absolute;
+    top: 51px;
+    left: 349px;
+}
+
+.img_kudaiconcert{
+    width: 59svh;
+    height: 316px;
+}
+
+@media (max-width: 360px) {
+    .img_kudaiconcert{
+        width: 62svh;
+    }
+}
+
+.infoconcertbox{
+    width: 346px;
+    height: 140px;
+    gap: 16px;
+    top: 246px;
+    left: 22px;
+    right: 22px;
+    border-radius: 14px 14px 0px 0px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 400px) {
+    .infoconcertbox{
+        left: 3.5svh;
+    }
+}
+
+.div_inoconcert{
+    width: 224px;
+    height: 59px;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 18.5px;
+
+    h1{
+        width: 214px;
+        height: 17px;
+        font-size: 14px;
+        font-family: "Inter_28pt-SemiBold";
+        
+    }
+}
+
+.div_infolocation{
+    width: 214px;
+    height: 15px;
+    display: flex;
+    gap: 8px;
+
+    img{
+        width: 10px;
+        height: 12px;
+    }
+
+    p{
+        width: 206px;
+        height: 15px;
+        font-size: 12px;
+        font-family: "Inter_18pt-Regular";
+    }
+}
+
+.div_infocalendario{
+    width: 128px;
+    height: 15px;
+    display: flex;
+    gap: 8px;
+
+    img{
+        width: 11px;
+        height: 12px;
+    }
+
+    p{
+        width: 109px;
+        height: 15px;
+        font-size: 12px;
+        font-family: "Inter_18pt-Regular";
+    }
+}
+
+.div_infogroup{
+    width: 190px;
+    height: 28px;
+    display: flex;
+    padding-left: 20px;
+    gap: 8px;
+    padding-top: 25.5px;
+    align-items: center;
+
+    img{
+        width: 60px;
+        height: 28px;
+    }
+
+    p{
+        width: 103px;
+        height: 15px;
+        font-size: 12px;
+        font-family: "Inter_18pt-Regular";
+        font-weight: bold;
+    }
+}
