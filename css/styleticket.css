@@ -1,0 +1,25 @@
+@import url(../css/variablesticket.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div_background{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: var(--ColorFond);
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: -1;
+}
+
+.arrowback2{ 
+    width: 34px;
+    height: 34px;
+}
+.whitepoints{
+    width: 16px;
+    height: 4px;
+}
